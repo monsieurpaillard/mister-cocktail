@@ -8,13 +8,11 @@
 Ingredient.destroy_all
 Cocktail.destroy_all
 
-lemon = Ingredient.create(name: "lemon")
-rhum = Ingredient.create(name: "rhum")
-mint_leaves = Ingredient.create(name: "mint leaves")
-tomato_juice = Ingredient.create(name: "mint leaves")
-vodka = Ingredient.create(name: "vodka")
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "rhum")
+Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "vodka")
 
 
-mojito = Cocktail.create(name:"mojito")
-bloody_mary = Cocktail.create(name:"bloody mary")
 
