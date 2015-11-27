@@ -9,6 +9,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-sm-offset-4">
       <h1><%= link_to @cocktail.name, cocktails_path %></h1>
+      <%= image_tag @cocktail.picture.url(:medium) %>
       <p><%= link_to "destroy", cocktail_path(@cocktail), method: :delete %></p>
       <ul>
         <% @cocktail.doses.each do |dose|%>
